@@ -39,8 +39,9 @@ function getSpotify() {
             console.log("\n------------Song Description-----------\n");
             console.log("Artist: " + data.tracks.items[0].album.artists[0].name);
             console.log("Song Name: " + songName);
-            console.log("Album: " + data.tracks.items[0].album.name);
             console.log("Spotify preview link: " + data.tracks.items[0].album.external_urls.spotify);
+            console.log("Album: " + data.tracks.items[0].album.name);
+            
 
         }
     });
